@@ -25,10 +25,7 @@ session_start();
 	 <?
 	 include $dest."/shadow/head.php";
 	 $head_tag->insertHeader('<link rel="stylesheet" type="text/css" media="screen, print" href="'.$dest.'css/jquery-ui-1.10.2.custom.css" />'); //jqury ui css
-	 $head_tag->insertHeader('<script src="'.$dest.'js/jquery-ui-1.10.2.custom.js"></script>'); //jqueryui
-	 $head_tag->insertHeader('<script src="'.$dest.'components/orders/assats/js/order.js"></script>'); //order js
-	 $head_tag->insertHeader('<script src="'.$dest.'js/bootbox.js"></script>'); //bootbox
-	 $head_tag->sendHeader();
+
 	 ?>
   </head>
   <body>
