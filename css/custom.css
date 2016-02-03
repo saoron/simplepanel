@@ -1,0 +1,407 @@
+.loginas{
+float: right;
+margin-right: 124px;
+margin-top: 18px;
+height: 20px;
+width: auto;
+line-height: 14px;
+padding: 5px;
+background: #f7f7f7;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+-webkit-transition: All 0.5s ease;
+-moz-transition: All 0.5s ease;
+-ms-transition: All 0.5s ease;
+-o-transition: All 0.5s ease;
+transition: All 0.5s ease;
+border: 1px solid #d9d9d9;
+margin-bottom: 4px;
+}
+.loginas li{
+display: list-item;
+text-align: -webkit-match-parent;
+margin-top: -24px;
+line-height: 0px;
+}
+.loginas span{
+margin-top: 25px;
+margin-right: -38px;
+}
+.loginas h5{
+margin: 24px 2px;
+text-align:center;
+}
+.slog{
+height: 295px;
+width: 98%;
+}
+.left{
+float:left !important;
+}
+.right{
+float:right !important;
+}
+.tran{
+text-align: right;
+margin-left: -44px !important;
+}
+.controls{
+margin-top: 5px;
+}
+.spacer_tall{
+margin-bottom:30px;
+}
+.action{
+width: 100px;
+position: absolute;
+margin-top: -11px;
+z-index: 100;
+}
+.smallaction{
+margin-left: 40px;
+}
+.action img{
+height: 20px;
+padding-left: 5px;
+cursor:pointer;
+}
+.col{
+padding-left: 9px !important;
+}
+.modal-body{
+direction:rtl;
+text-align:right;
+}
+.modal-footer{
+text-align:left
+}
+#addart{
+display:none;
+}
+.center{
+text-align:center;
+}
+.rtl{
+direction:rtl;
+}
+.ltr{
+direction:ltr;
+}
+.add_art{
+text-align:center;
+}
+.no-margin{
+margin-left: 0px;
+margin-right: 0px;
+}
+.no-margin-left{
+margin-left: 18px !important;
+float: right !important;
+}
+.smaller{
+width: 89px !important;
+}
+.pull_send_butt{
+margin-left: 3px;
+}
+.pull_send_butt_more{
+margin-left: -304px;
+}
+.short_a_bit{
+width: 222px !important;
+float: right !important;
+}
+.short_a_bit_less{
+width: 300px !important;
+float: right !important;
+direction:rtl;
+}
+.cross{
+background-image:url('images/close.png');
+background-repeat:no-repeat;
+}
+.cross:hover{
+background-image:url('images/close_hover.png');
+background-repeat:no-repeat;
+}
+.btn-group{
+margin-left: 50px;
+direction:ltr;
+}
+.login{
+margin-left:auto;
+margin-right:auto;
+margin-top:200px;
+height: 365px;
+width:400px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+background-color:#e9eaee;
+}
+.login_logo{
+margin-top: -60px;
+}
+.login h1{
+color: rgb(100, 97, 97);
+text-align:center;
+}
+.login_input{
+text-align:center;
+}
+.input-prepend {
+margin-bottom: 20px;
+}
+.bigbttn{
+width: 195px;
+}
+.by_sml{
+margin-top: 14px;
+margin-right: 5px;
+color: rgb(165, 165, 165);
+}
+.by_sml_footer{
+margin-top: -2px;
+margin-right: 5px;
+color: rgb(165, 165, 165);
+}
+.errhandle{
+text-align: right;
+direction: rtl;
+display:none;
+}
+.popover{
+text-align:right;
+direction:rtl;
+}
+.editable-buttons{
+float: left;
+margin-top: 10px;
+margin-left: 30px;
+}
+.admin_pass{
+width: 102px;
+height: 10px;
+margin-top: 8px;
+margin-right: 8px;
+}
+#myModalLabel{
+text-align:right;
+direction:rtl;
+}
+.close{
+margin-top: 6px;
+margin-left: 17px;
+}
+.slog2{
+width:97%;
+height: 391px;
+}
+.totalw{
+width:98%;
+}
+#loading{
+display:none;
+height: 200px;
+width: 200px;
+background-color: #000;
+position: fixed;
+top: 50%;
+left: 50%;
+margin-top: -200px;
+margin-left: -200px;
+opacity:0.7;
+filter:alpha(opacity=70); /* For IE8 and earlier */
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+}
+#loading img{
+margin-left: 66px;
+margin-top: 30px;
+}
+#loading h3{
+text-align: right;
+direction: rtl;
+padding-right: 33px;
+color: #fff;
+}
+.curs{
+cursor:pointer;
+}
+.caption h3{
+text-align:center;
+}
+.thumbnail img{
+margin-left: auto;
+margin-right: auto;
+}
+#gallery img{
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+border:1px solid #e0dede;
+margin-bottom: 4px;
+max-height: 139px;
+cursor:move;
+}
+#gallery a:hover{
+opacity:0.5;
+filter:alpha(opacity=50); /* For IE8 and earlier */
+}
+ #sortable { display: table; height:100%; cursor:move; list-style-type: none; margin: 0; padding: 0; width: 100%; }
+ #sortable li { border:0; margin: 12px 12px 3px 0; padding: 1px; float: left; width: 185px;height: 141px; font-size: 4em; text-align: center; }
+ #sortable li a{  height: 141px;  }
+ #gallery .thumbnail-img img{  width:100%;  }
+ 
+.gal_top{
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+margin-top: 7px;
+cursor:pointer;
+}
+.gal_top:hover{
+opacity:0.7;
+filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+.tools2{
+position:relative;
+width:50px;
+height:50px;
+top: 66px;
+}
+#modal-gallery{
+display:none;
+}
+#sortable{
+width: 101%;
+}
+#droppable{
+width: 100%;
+height: 146px;
+}
+
+.help-inline{
+margin-top: 4px;
+margin-right: 15px;
+}
+.txt_area_w{
+width:100%;
+height:400px;
+}
+.pad-a-bit{
+margin-left: -99px !important;
+overflow-y: auto;
+overflow-x: hidden;
+height: 69px;
+width: 108.5%;
+border: 1px solid rgb(206, 197, 197);
+}
+.wid_a{
+width: 109%;
+}
+.pad-a-bit span:first-child{
+margin-right:3px;
+}
+.pad-a-bit span{
+margin-left:3px;
+margin-top: 3px;
+}
+.pad-a-bit label{
+margin-left: 26px;
+margin-top: 1px;
+padding-right: 4px;
+}
+.fss1:hover{
+color: rgb(187, 47, 47);
+cursor:pointer;
+}
+.boxes{
+margin-left:auto;
+margin-right:auto;
+height:auto;
+width:1000px;
+}
+.box{
+padding-left:25px;
+float:right;
+width:230px;
+}
+.box_wrap{
+background-image: url("../img/mid_bg.png");
+background-repeat:repeat-y;
+}
+.reco_bg{
+margin-top: -11px;
+background-image: url("../img/bootom_bg.png");
+background-repeat:no-repeat;
+height:48px;
+width:230;
+}
+.boxttl{
+margin-top: 36px;
+text-align: center;
+padding-left: 50px;
+}
+.boxctnc{
+line-height: 23px;
+text-align: right;
+direction: rtl;
+width: 230px;
+font-size:16px;
+margin-left: -7px;
+}
+
+.boxname{
+margin-left: 86px;
+margin-top: 21px;
+font-weight: bold;
+}
+.camp_butt{
+width: 320px;
+margin-left: -150px;
+}
+.timecloack{
+margin-left: 46px;
+width: 222px;
+}
+.deleteCamp{
+cursor:pointer;
+}
+.full{
+width: 100% !important;
+}
+.fs1-height{height: 20px;}
+.new_notif{
+background-color: rgb(231, 88, 88);
+right: -17px;
+top: 13px !important;
+}
+.taller{
+margin-top: 20px;
+}
+#mail_items tr{
+cursor:pointer;
+}
+.mailContact{
+font-weight: 100 !important;
+}
+.bigandbright{
+font-weight:bold !important;
+}
+.gray{
+color: rgb(107, 107, 107);
+}
+.frm_mail{
+margin-top: 25px;
+margin-right: 4px;
+}
+.fix_grp{
+margin-left: 30px;
+}
+.center_Send{right: 0px;}
+.to_mail{
+width:96%;
+}
